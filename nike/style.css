@@ -1,0 +1,166 @@
+body {
+    height: 450vh;
+    background-color: black;
+    color: white;
+}
+
+.navContainer {
+    border: solid black;
+    height: 60px;
+    border-width: .2px;
+    display: flex;
+}
+
+.nikeIcon {
+    height: 60px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.smIcons {
+    /* border: solid purple; */
+    margin-left: 65%;
+    padding: 5px;
+}
+
+.bcase {
+    height: 40px;
+    margin-bottom: 12px;
+    margin: 6px;
+}
+
+.bcase:hover {
+    border: solid black;
+    border-radius: 50%;
+    border-width: .2px;
+    background-color: lightgray;
+    height: 40px;
+    margin-bottom: 12px;
+    margin: 6px;
+}
+
+.mglass {
+    height: 35px;
+    margin-bottom: 12px;
+}
+
+.mglass:hover {
+    height: 35px;
+    margin-bottom: 12px;
+    border: solid black;
+    border-radius: 50%;
+    border-width: .2px;
+    background-color: lightgray;
+    margin: 6px;
+}
+
+.topScroll {
+    text-align: center;
+}
+
+.joiner {
+    text-align: center;
+}
+
+.mainPic {
+    width: 95%;
+    margin: 10px;
+}
+
+.b2btext {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.blackbuttons {
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    background-color: #111;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+
+/* new zoom picture */
+
+.featured,
+.featured2 {
+    position: relative;
+    size: 50%;
+    align-items: flex-start;
+}
+
+.newZoom,
+.airzoom {
+    position: absolute;
+    bottom: 50px;
+    color: white;
+}
+
+.shop,
+.Shop1 {
+    position: absolute;
+    font-size: 30px;
+    width: 80px;
+    left: 20%;
+    bottom: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    background-color: white;
+    color: #111;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.shop:hover {
+    background-color: gray;
+    opacity: 80%;
+}
+
+.themeContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.themeTab:hover {
+    color: blue;
+}
+
+.sneakerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid red; */
+    height: 54vh;
+    margin: 6px;
+}
+
+.sneakerBox {
+    border: solid black;
+    width: 190px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.sneakerBox:hover {
+    border: solid green;
+    margin: 12px;
+    width: 250;
+    background-color: gray;
+}
+
+.sneakerInfo {
+    border: solid yellow;
+    height: 80px;
+    color: lemonchiffon;
+    text-align: center;
+    background-color: slategrey;
+}
+
+.shoe {
+    width: 100%;
+}
